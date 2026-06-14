@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, F
 from aiogram.filters import Command
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-TOKEN = "8635030604:AAFOUJg7nPogKWqUpzjbsbAJAyfNe8mDq6k"
+TOKEN = TOKEN = os.getenv ("8635030604:AAFOUJg7nPogKWqUpzjbsbAJAyfNe8mDq6k")
 
 if not TOKEN:
     raise Exception("TOKEN not found")
