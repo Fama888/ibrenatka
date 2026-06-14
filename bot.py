@@ -6,7 +6,7 @@ from aiogram.filters import Command
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 
 # ===== TOKEN (Render ENV) =====
-TOKEN = os.getenv ("8635030604:AAFOUJg7nPogKWqUpzjbsbAJAyfNe8mDq6k")
+TOKEN = os.getenv("8635030604:AAFOUJg7nPogKWqUpzjbsbAJAyfNe8mDq6k")
 
 if not TOKEN:
     raise Exception("TOKEN not found")
